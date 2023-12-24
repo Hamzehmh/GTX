@@ -21,3 +21,10 @@ for i in data:
     #dfg709i7hfhlklsdf55pop978754
 
 print("----------------end---------------------")
+
+file2  = "src.data3 finglish.json"
+
+with open(file, "r") as f2:
+    data2 = json.load(f2)
+
+print(data2)
