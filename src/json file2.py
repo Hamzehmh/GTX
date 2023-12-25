@@ -1,5 +1,6 @@
 import json
 
+
 print("----------------start---------------------")
 
 file = "src/data3 finglish.json"
@@ -17,10 +18,28 @@ for i in data:
 
 print("----------------END---------------------")
       
-  #    size = (i[size])
-   #   color = (i[color])
-   # # #  print(f'{size} is {color}')
-    #dfg709i7hfhlklsdf55pop978754
+print("----------------start-YML---------------------")
+
+file_2 = "src/trunk.yaml"
+
+
+with open(file_2, "r") as f:
+    data = json.load(f)
+    #name_data = (data["size"])
+print(data)    
+    
+for i in data:
+      print(i)
+ 
+      
+
+print("----------------END---------------------")
+    
+    
+    
+    
+    
+    
 
 import random
 lower_bound = 1
