@@ -12,19 +12,19 @@ print(data)
     
 for i in data:
       print(i)
+ 
       
 
+print("----------------END---------------------")
       
   #    size = (i[size])
    #   color = (i[color])
    # # #  print(f'{size} is {color}')
     #dfg709i7hfhlklsdf55pop978754
 
-print("----------------end---------------------")
+import random
+lower_bound = 1
+upper_bound = 523
+random_number = random.randint(lower_bound, upper_bound)
+print("Random number between", lower_bound, "and", upper_bound, "is:", random_number)
 
-file2  = "src.data3 finglish.json"
-
-with open(file, "r") as f2:
-    data2 = json.load(f2)
-
-print(data2)
