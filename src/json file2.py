@@ -18,27 +18,7 @@ for i in data:
 
 print("----------------END---------------------")
       
-print("----------------start-YML---------------------")
-
-file_2 = "src/trunk.yaml"
-
-
-with open(file_2, "r") as f:
-    data = json.load(f)
-    #name_data = (data["size"])
-print(data)    
-    
-for i in data:
-      print(i)
- 
-      
-
-print("----------------END---------------------")
-    
-    
-    
-    
-    
+   
     
 
 import random
